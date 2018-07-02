@@ -30,7 +30,7 @@ body{
 	margin: 8rem auto;
 	background-color: blue;
 	box-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
-	min-height: 130rem;
+	min-height: 200rem;
 }
 
 .content{
@@ -56,7 +56,7 @@ body{
 
 .shop-view{
 	flex: 1;
-	height: 130rem;
+	min-height: 200rem;
 	background-color: white;
 
 }
@@ -380,6 +380,7 @@ span{
 .explore{
 	margin-bottom: 4rem;
 	text-align: center;
+	padding-top: 20%
 }
 
 .btn:visited,
@@ -390,5 +391,10 @@ span{
 
 .btn-white{
 	background-color: #fff;
+	color: #777;
+}
+
+.btn-blue{
+	background-color: blue;
 	color: #777;
 }
