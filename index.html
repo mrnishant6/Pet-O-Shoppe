@@ -12,43 +12,369 @@
 
 <title>Pet Shop</title>
 
+<meta charset="UTF-8">
+
 <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 </head>
 <body>
-	 <nav class="navbar navbar-inverse navbar fixed-top">
-      <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-       <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-          </button>
-           <a class="navbar-brand" href="#"><i class="fas fa-paw"></i>Pet-O-Shopee</a>
-    </div>
+	 	<div class="container">
+	 		<header class="header">
+	 			<i class="fas fa-paw" alt="Logo"></i>
+	 			<form action="#" class="search">
+	 				<input type="text" class="search-input" placeholder="Search For Your Favuorites">
+	 				<button class="search-button">
+	 					<i class="fas fa-search"></i>
+	 				</button>
+	 			</form>
+	 			<nav class="user-nav">
+	 				<div class="user-nav-icon_box">
+	 					<i class="fas fa-user-plus"></i>
+	 				</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-              <li><a href="#"><span><i class="fas fa-align-center"></i></span>About Us</a></li>
-              <li><a href="#"><span><i class="fas fa-mobile"></i></span>Contact Us</a></li>
-              <ul class="nav navbar-nav navbar-right">
-               <li><a href="#"><span><i class="fas fa-signal"></i></span>Sign In</a></li>
-               <li><a href="#"><span><i class="fas fa-address-card"></i></span>Register Me</a></span>
-              <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Catch Them<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-              <li><input type ="checkbox" class="pets">Lebra</li>
-              <li><input type ="checkbox" class="pets">Labrador</li>
-              <li><input type ="checkbox" class="pets">Pugs</li>
-              <li role="separator" class="divider"></li>
-              <li><input type ="checkbox" class="pets">Persian Cats</li>
-              <li><input type ="checkbox" class="pets">RagDoll</li>
-              <li><input type ="checkbox" class="pets">BengalCat</li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	 					<div class="user-nav-icon_box">
+	 						<i class="fas fa-bookmark"></i>
+	 					</div>
+	 					
+	 			
+	 			</nav>
+
+
+	 			
+	 			
+	 		</header>
+	 		<div class="content">
+	 			<nav class="sidebar">
+	 				<ul class="side-nav">
+	 					<li class="item"><a href="#" class="link"><i class="fas fa-home icon" ></i><span>Home</span></a></li>
+	 					<li class="item"><a href="#" class="link"><i class="fas fa-heart icon"></i><span>About Us</span></a></li>
+	 					<li class="item"><a href="#" class="link"><i class="fas fa-phone icon"></i><span>Contact Us</span></a></li>
+	 					<li class="item"><a href="#" class="link"><i class="fas fa-sign-in-alt icon"></i><span>Login Me</span></a></li>
+	 					<li class="item"><a href="#" class="link"><i class="fas fa-user-tag icon"></i><span>Register With Us</span></a></li>
+	 				</ul>	
+	 				<div class="legal">&copy; 2018 By Pet_O_Shoppee. All Rights Reserved</div>
+	 			</nav>
+
+	 			
+
+
+	 			<main class="shop-view">
+	 				<section class="animals">
+	 					<div class="row">
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front1">
+	 									<div class="card-picture card-picture-1">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span">Phenomenal Rabbit</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">Most Addorable Pet</li>
+	 											<li class="c1">Small Furry Animals</li>
+	 											<li class="c1">Upto 75cm in height</li>
+	 										</ul>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back1">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="#">
+	 										<p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#">
+	 										<p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							 <div class="card"><div class        ="card-side-front front2">
+	 							 	<div class="card-picture card-picture-2">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span">Labrador</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">TrustWorthy</li>
+	 											<li class="c1">Never Dissapoints</li>
+	 											<li class="c1">Freindly In Nature</li>
+	 									</div>
+	 							 </div>
+	 							 <div class="card-side-back back2"><div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="#">
+	 										<p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#">
+	 										<p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+ 									</div>
+	 						      </div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front3">
+	 									<div class="card-picture card-picture-3">&nbsp;</div>
+	 									<h4 class="card-header"><span class=" heading-span">Persian Cat</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">Loves To Be With People</li>
+	 											<li class="c1"> Make Freinds</li>
+	 											<li class="c1">Punctual In Nature</li>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back3">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="#">
+	 										<p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#">
+	 										<p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front4"><div class="card-picture card-picture-4">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span">Voda Dog</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1"> Addorable Pets</li>
+	 											<li class="c1">Well Trained</li>
+	 											<li class="c1">Freind To Human</li>
+	 									</div></div>
+	 								<div class="card-side-back back4">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="#">
+	 										<p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#">
+	 										<p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front5">
+	 									<div class="card-picture card-picture-5">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span">The Lazy Master</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">Love To Sleep</li>
+	 											<li class="c1">Lazy Creature</li>
+	 											<li class="c1">2-9 Pounds</li>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back5">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="# 
+	 										"><p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#"> 
+	 									<p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front6">
+	 									<div class="card-picture card-picture-6">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span">The Parrot</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">Rewarding</li>
+	 											<li class="c1">Intelligent Pet</li>
+	 											<li class="c1">Excellent Companion</li>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back6">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="# 
+	 										"><p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#"
+	 										><p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front7">
+	 									<div class="card-picture card-picture-7">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span"> The Aquarium</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">Adorable Fishes In Tank</li>
+	 											<li class="c1">Give your Fish A Home!!</li>
+	 											<li class="c1">Upto 75cm in height</li>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back7">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="#"
+	 										><p class="btn btn-white">Buy Now</p></a>
+	 										<a href="# class
+	 										btn-white"><p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front8">
+	 									<div class="card-picture card-picture-8">&nbsp;</div>
+	 									<h4 class="card-header"><span class="heading-span">Rat</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">Smart & Emphatic</li>
+	 											<li class="c1">Need Preventive Care</li>
+	 											<li class="c1">Short Lived</li>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back8">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="# class
+	 										btn-white"><p class="btn btn-white">Buy Now</p></a>
+	 										<a href="# class
+	 										btn-white"><p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+
+	 						<div class="col-lg-4">
+	 							<div class="card">
+	 								<div class="card-side-front front9">
+	 									<div class="card-picture card-picture-9">&nbsp;</div>
+	 									<h4 class="card-header">
+	 										<span class="heading-span">Persian Cat</span></h4>
+	 									<div class="card-details">
+	 										<ul class="cd1">
+	 											<li class="c1">Check This Out</li>
+	 											<li class="c1">A Beautiful Pet</li>
+	 											<li class="c1">Gentle Animals</li>
+	 											<li class="c1">Upto 75cm in height</li>
+	 									</div>
+	 								</div>
+	 								<div class="card-side-back back9">
+	 									<div class="card-cta">
+	 										<div class="card-price-box">
+	 											<p class="price-only">
+	 												Only
+	 											</p>
+	 											<p class="price-value">
+	 												$100
+	 											</p>
+	 										</div>
+	 										<a href="#"> 
+	 									<p class="btn btn-white">Buy Now</p></a>
+	 										<a href="#" 
+	 										><p class="btn btn-white">Check For Availability</p></a>
+	 									</div>
+
+	 								</div>
+	 							</div>
+	 						</div>
+	 					</div>
+	 						<div class="explore">
+	 							<a href="#" class="btn btn-white">Explore More &rarr;</a>
+	 						</div>
+	 					
+	 				</section>
+	 			</main>
+	 		</div>
+	 			
+	 		
+	 	</div>
+	 			
+     <script
+     src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+     crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  
+	 
+	 			
+	 		
+	 		
+
+</body>
+</html>
